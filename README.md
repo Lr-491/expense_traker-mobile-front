@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
+Application fonctionne, mais la conception n’est pas encore totalement terminée.
+App est  actuellement en MVP (Minimum Viable Product).
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🧠 1️⃣ Ce que  l'app fait (MVP)
 
-## Get started
+Expense Tracker possède déjà les bases solides :
 
-1. Install dependencies
+🔐 Authentification
 
-   ```bash
-   npm install
-   ```
+✔️ Inscription utilisateur
 
-2. Start the app
+✔️ Login JWT
 
-   ```bash
-   npx expo start
-   ```
+✔️ Stockage du token
 
-In the output, you'll find options to open the app in a
+✔️ Refresh token
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+💰 Gestion des dépenses
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+✔️ Ajouter une dépense
 
-## Get a fresh project
+✔️ Lister les dépenses
 
-When you're ready, run:
+✔️ Modifier une dépense
 
-```bash
-npm run reset-project
-```
+✔️ Supprimer une dépense
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+✔️ Chaque utilisateur voit ses propres dépenses
 
-## Learn more
+📊 Interface mobile
 
-To learn more about developing your project with Expo, look at the following resources:
+✔️ Home screen
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+✔️ Liste des dépenses
 
-## Join the community
+✔️ Ajout
 
-Join our community of developers creating universal apps.
+✔️ Edition
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+✔️ Suppression
+
+✔️ Loader
+
+✔️ Message si aucune dépense
+
+✔️ Total des dépenses
+
+Ce qui manque  pour que l'app est soit "complète"
+
+ Fonctionnalités utiles
+1- Filtrer les dépenses
+
+exemple :
+
+aujourd'hui
+
+cette semaine
+
+ce mois
+
+API :
+
+/api/expenses/?month=5
+2️⃣ Statistiques
+
+Exemple :
+
+Total transport : 50000
+Total nourriture : 30000
+Total loisirs : 15000
+
+et afficher un graphique.
+
+3️⃣ Budget mensuel
+
+Exemple :
+
+Budget : 200000
+Dépensé : 150000
+Restant : 50000
+4️⃣ Pagination
+
+Si l'utilisateur a 1000 dépenses
+
+/api/expenses?page=2
+5️⃣ Recherche
+/api/expenses?search=transport
+
+Amélioration du mobile
+
+Interface plus pro :
+
+Ajouter
+
+✔️ icônes
+✔️ animation
+✔️ graphiques
+✔️ dark mode
